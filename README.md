@@ -39,7 +39,7 @@ This project aims at answering the following research questions:
 2.  Are Reddit users more prone to comment on submissions that they agree with wrt. climate change topics?
 	- Hypothesis: *Yes - the hypothesis is that the tendency of observing echo-chambers occurs within a Reddit network of the Climate Change discussion.*
 3.  Do authorities within the Reddit-Climate network influence the debate particularly?
-	- Hypothesis: *Yes. We hypothesize that authority redditors - either defined by a high in-degree of comments or by looking into Reddit awards - influence other Redditors in a way related to echo-chambers.*
+	- Hypothesis: *Yes. We hypothesize that authority redditors - either defined by the HITS hub and authority values or by looking into Reddit awards - influence other Redditors in a way related to echo-chambers.*
 
 ### Approach
 
@@ -61,7 +61,7 @@ We further want to analyze which words are important within each community and s
 
 <ins>**RQ3: *Access authority nodes in the graph***</ins>
 
-Based on the modeled Reddit-Climate network, we will experiment with how to find authorities; 1) by thresholding the node in-degree or 2) by looking into Redditor awards. Then, we will look at the opinion of the top N authorities within the network and analyze if the corresponding hub opinion (opinion of users that reply to the authority) is similar to the authority opinion. Since we want to find out if there is a trend of authority nodes' opinion affect hub nodes' opinion we will find a shared representation of the hub-nodes opinions and compare them to the authority node opinion - this shared representation will depend on the distribution of the scores (power-law or not). Based on these opinion pairs for the top N authority-hub candidates, we will apply a statistical test *(yet to be defined)* to determine if there is a trend of authority node opinions affecting hub nodes' opinion, when it comes to Climate Change Reddit submissions.
+Based on the modeled Reddit-Climate network, we will experiment with how to find authorities; 1) by thresholding the authority values from the HITS algorithm or 2) by thresholding based on the Redditor awards. Then, we will look at the opinion of the top N authorities within the network and analyze if the corresponding hub opinion (opinion of users that reply to the authority) is similar to the authority opinion. Since we want to find out if there is a trend of authority nodes' opinion affect hub nodes' opinion we will find a shared representation of the hub-nodes opinions and compare them to the authority node opinion - this shared representation will depend on the distribution of the scores (power-law or not). Based on these opinion pairs for the top N authority-hub candidates, we will apply a statistical test *(yet to be defined)* to determine if there is a trend of authority node opinions affecting hub nodes' opinion, when it comes to Climate Change Reddit submissions.
 
 Similarly to RQ2, we will analyze textual content for authorities using TF-IDF scores. If authority nodes affect hub nodes (in terms of opinion), we further aim at stratifying the analysis by incorporating WikiData (to be determined: could be 'occupation') to investigate whether authority specifications have a say in whether 'Climate Change' is positively or negatively associated.
 
