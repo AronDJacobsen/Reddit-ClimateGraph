@@ -63,8 +63,6 @@ We further want to analyze which words are important within each community and s
 
 Based on the modeled Reddit-Climate network, we will experiment with how to find authorities; 1) by thresholding the authority values based on the in-degree or 2) by thresholding based on the Redditor awards. Then, we will look at the opinion of the top N authorities within the network and analyze if the corresponding hub opinion (opinion of users that reply to the authority) is similar to the authority opinion. Since we want to find out if there is a trend of authority nodes' opinion affect hub nodes' opinion we will find a shared representation of the hub-nodes opinions and compare them to the authority node opinion - this shared representation will depend on the distribution of the scores (power-law or not). Based on these opinion pairs for the top N authority-hub candidates, we will apply a statistical test *determined form a preliminary analysis* to determine if there is a trend of authority node opinions being significantly different from hub nodes' opinion, when it comes to Climate Change Reddit submissions.
 
-Similarly to RQ2, we will analyze textual content for authorities using TF-IDF scores. If authority nodes affect hub nodes (in terms of opinion), we further aim at stratifying the analysis by incorporating WikiData (to be determined: could be 'occupation') to investigate whether authority specifications have a say in whether 'Climate Change' is positively or negatively associated.
-
 ## Setup
 
 <!--- To set your enviornment variables in your terminal run the following line:
