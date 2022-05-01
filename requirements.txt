@@ -1,0 +1,11 @@
+pandas
+numpy
+networkx
+netwulf
+jupyter
+nltk
+sklearn
+matplotlib
+seaborn
+plotly
+dash
