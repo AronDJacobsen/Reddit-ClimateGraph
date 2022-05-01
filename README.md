@@ -39,7 +39,7 @@ This project aims at answering the following research questions:
 2.  Are Reddit users more prone to comment on submissions that they agree with wrt. climate change topics?
 	- Hypothesis: *Yes - the hypothesis is that the tendency of observing echo-chambers occurs within a Reddit network of the Climate Change discussion.*
 3.  Do authorities within the Reddit-Climate network excite the debate particularly?
-- 	Hypothesis: *Yes. We hypothesize that authority redditors - either defined by a high in-degree of comments or by looking into Reddit awards - have a differing opinion than the hub-redditors, since authority posts are more "global".*
+ 	- Hypothesis: *Yes. We hypothesize that authority redditors - either defined by a high in-degree of comments or by looking into Reddit awards - have a differing opinion than the hub-redditors, since authority posts are more "global".*
 
 ### Approach
 
