@@ -1,4 +1,0 @@
-[markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
