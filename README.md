@@ -9,7 +9,7 @@ Divided into subparts following:
 > - `model`: can be downloaded from [here](https://drive.google.com/drive/folders/19D_XxBRs8-eabwBReffcahxWHNisFfF1?usp=sharing). Contains the pickled model that was trained and used throughout the project.
 > - `preliminary_analysis.ipynb` carries out the [preliminary analysis](https://nbviewer.org/github/albertkjoller/Reddit-ClimateGraph/blob/main/preliminary_analysis.ipynb?flush_cache=true).
 > - `RQ[1-3].ipynb`: answers to the research questions stated in this README-file.
-> - `explainer.ipynb`: containing the answered research questions and analyses in a single [place]((https://nbviewer.org/github/albertkjoller/Reddit-ClimateGraph/blob/main/explainer.ipynb?flush_cache=true)). Hand-in requirement.
+> - `explainer.ipynb`: containing the answered research questions and analyses in a single [place](https://nbviewer.org/github/albertkjoller/Reddit-ClimateGraph/blob/main/explainer.ipynb?flush_cache=true). Hand-in requirement.
 
 ## Project description
 
